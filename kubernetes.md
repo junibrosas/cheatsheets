@@ -7,7 +7,7 @@ kubectl get nodes
 Create a deployment:
 
 ```
-kubectl create deployment --image kamaln7/node-hello-app node-app
+kubectl create deployment --image jbrosas/node-hello-app node-app
 ```
 
 Scale up to 3 replicas:
